@@ -1,0 +1,3 @@
+interface Assessment {
+    void submit();
+}
