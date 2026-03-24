@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface ReadingMaterial {
+interface ReadingMaterial {
+    void read();
 }
