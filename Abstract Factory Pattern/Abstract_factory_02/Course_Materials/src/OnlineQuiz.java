@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class OnlineQuiz {
+class OnlineQuiz implements Assessment {
+    public void submit() {
+        System.out.println("Submitting online quiz with auto-grading...");
+    }
 }
