@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class OldCharger {
+class OldCharger {
+    public void oldCharge() {
+        System.out.println("Charging with old charger");
+    }
 }

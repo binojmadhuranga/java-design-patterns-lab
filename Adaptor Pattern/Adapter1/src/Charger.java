@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface Charger {
+interface Charger {
+    void charge();
 }
