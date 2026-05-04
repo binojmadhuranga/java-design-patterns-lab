@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class BasicCoffee {
+class BasicCoffee implements Coffee {
+    public double cost() {
+        return 100;
+    }
 }

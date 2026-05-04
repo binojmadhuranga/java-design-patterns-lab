@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
-
-public class Sugar {
+class Sugar extends CoffeeDecorator {
+    public Sugar(Coffee coffee) {
+        super(coffee);
+    }
+    public double cost() {
+        return coffee.cost() + 10;
+    }
 }

@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+abstract class CoffeeDecorator implements Coffee {
+    protected Coffee coffee;
 
-public class CoffeeDecorator {
+    public CoffeeDecorator(Coffee coffee) {
+        this.coffee = coffee;
+    }
+
 }
