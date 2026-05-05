@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface Subscriber {
+interface Subscriber {
+    void update(String videoTitle);
 }
