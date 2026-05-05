@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Observer {
+interface Observer {
+    void update(float temp);
 }
