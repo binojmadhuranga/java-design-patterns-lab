@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+class CashPayment implements PaymentStrategy {
 
-public interface CashPayment {
+    @Override
+    public void pay(int amount) {
+        System.out.println("Paid " + amount + " using Cash");
+    }
 }
