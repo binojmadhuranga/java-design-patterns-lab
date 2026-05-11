@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+class BikeRoute implements RouteStrategy {
 
-public class BikeRoute {
+    @Override
+    public void buildRoute() {
+        System.out.println("Calculating Bike Route");
+    }
 }

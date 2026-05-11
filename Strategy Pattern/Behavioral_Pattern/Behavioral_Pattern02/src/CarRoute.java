@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+class CarRoute implements RouteStrategy {
 
-public class CarRoute {
+    @Override
+    public void buildRoute() {
+        System.out.println("Calculating Car Route");
+    }
 }

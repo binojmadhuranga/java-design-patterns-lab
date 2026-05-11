@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+class WalkingRoute implements RouteStrategy {
 
-public class WalkingRoute {
+    @Override
+    public void buildRoute() {
+        System.out.println("Calculating Walking Route");
+    }
 }
