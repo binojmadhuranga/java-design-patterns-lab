@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+class FundTransfer extends BankTransaction {
 
-public class FundTransfer {
+    void performTransaction() {
+        System.out.println("Performing Fund Transfer");
+    }
 }
