@@ -127,6 +127,25 @@ To master software design patterns for real-world software development and impro
 * Git
 * GitHub
 
+## New Implementation: Assignment (Smart Food Delivery Management System)
+
+The `Assignment` example is a small, integrated demo implementing multiple design patterns to model a food delivery system.
+
+- **Features implemented:** Singleton (`DeliveryManager`), Strategy (`PaymentContext` + `CODPayment`, `KokoPayment`, `CardPayment`), Observer (`Order`, `Customer`), Composite (`MenuCategory`, `MenuComponent`, `FoodItem`).
+- **Purpose:** Demonstrates how patterns collaborate in a single application (order lifecycle, payment strategies, delivery tracking, menu composition).
+
+## How to run the `Assignment` example
+
+From a terminal (Windows) in the repository root, compile and run the example using the JDK:
+
+```powershell
+cd "c:\Users\binoj\OneDrive\Desktop\Practicle\Assignment\src"
+javac *.java
+java Main
+```
+
+Or open the `Assignment` module in IntelliJ IDEA and run the `Main` class.
+
 ## Progress Tracking
 
 This repository will continue to grow as more design pattern implementations are added.
